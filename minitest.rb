@@ -117,7 +117,7 @@ cheatsheet do
     end
     entry do
       command 'assert_match'
-      name '` assert_match @subject.first, /silly/`'
+      name '` assert_match /silly/ @subject.first`'
     end
     entry do
       command 'assert_nil'
